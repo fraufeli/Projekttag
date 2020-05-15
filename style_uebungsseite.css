@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;    
+}
+
+html, 
+body {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+line-height: 1.4;
+font-size: 100%;
+color: darkblue;    
+}
+
+#klein {
+    height: 40px;
+    width: 35.25px;}
+header {
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+#navigation {
+    display: flexbox;
+}
