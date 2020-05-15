@@ -1,23 +1,61 @@
 * {
-  box-sizing: border-box;    
+  box-sizing: border-box ;
 }
 
-html, 
+html,
 body {
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-line-height: 1.4;
-font-size: 100%;
-color: darkblue;    
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+  'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.4;
+  font-size: 100%;
+  color: #000000;
+  margin: 0;
 }
+a {
+    text-decoration: none; /* entfernt Unterstreichung */
+    color: black;
+  } 
+
 
 #klein {
-    height: 40px;
-    width: 35.25px;}
+  height: 40px;
+  width: 35.25px;
+} /*Logo Kaffeetasse*/
+
 header {
-    height: 64px;
-    display: flex;
-    align-items: center;
+  height: 64px;
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }
+#navlinks {
+    list-style-type: none; /*entfernt Bulletpoints*/
+    padding-left: 0;
+    margin: 0;
+  } 
 #navigation {
-    display: flexbox;
+    display: inline;
 }
+.container {
+    width: 25%;
+    padding-top: 3rem;
+}
+
+#navlinks li{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem; 
+    padding-top: 0.5rem;
+    display: inline;
+   }
+   article {
+	border: 1px solid;
+	display: flex;
+}
+.container{
+    display: flex;
+}
+}
+
+
